@@ -9,7 +9,7 @@ const Calculate = () => {
   const dispatch = useDispatch();
   const [num, setNum] = useState("");
   return (
-    <div className="container text-center bg-danger">
+    <div className="container text-center bg-dark">
       <input
         className="m-4 text-center shadow border-top border-bottom "
         placeholder="Enter Number"
